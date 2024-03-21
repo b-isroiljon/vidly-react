@@ -3,7 +3,7 @@ import { Route, Redirect, Switch } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import Movies from "./components/movies";
 import MovieForm from "./components/movieForm";
-import Customers from "./components/customers";
+import Customers from "./components/customers.jsx";
 import Rentals from "./components/rentals";
 import NotFound from "./components/notFound";
 import NavBar from "./components/navBar";
