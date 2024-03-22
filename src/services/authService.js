@@ -4,6 +4,7 @@ import { jwtDecode } from "jwt-decode";
 
 const apiEndpoint = config.apiUrl + "/auth";
 const tokenKey = "token";
+console.log(apiEndpoint);
 
 http.setJwt(getJwt());
 
